@@ -1,0 +1,63 @@
+OUTPUT
+
+Min Gain : 0.0
+Accuracy : 1.0
+Decision Tree
+
+>FeatureVal(feature=5, value='n')	(3122, 2878)	0.533217982444
+->FeatureVal(feature=20, value='r')	(2523, 79)	0.103292668138
+-->FeatureVal(feature='-', value='-')	(0, 48)	0
+-->FeatureVal(feature=13, value='y')	(2523, 31)	0.0615415242138
+--->FeatureVal(feature=18, value='o')	(11, 26)	0.877962001394
+---->FeatureVal(feature='-', value='-')	(0, 26)	0
+---->FeatureVal(feature='-', value='-')	(11, 0)	0
+--->FeatureVal(feature=2, value='g')	(2512, 5)	0.0113660440265
+---->FeatureVal(feature='-', value='-')	(0, 3)	0
+---->FeatureVal(feature=1, value='c')	(2512, 2)	0.00427135123511
+----->FeatureVal(feature='-', value='-')	(0, 1)	0
+----->FeatureVal(feature=8, value='b')	(2512, 1)	0.00168064020366
+------>FeatureVal(feature='-', value='-')	(2378, 0)	0
+------>FeatureVal(feature=4, value='t')	(134, 1)	0.0630678080039
+------->FeatureVal(feature='-', value='-')	(0, 1)	0
+------->FeatureVal(feature='-', value='-')	(134, 0)	0
+->FeatureVal(feature=4, value='t')	(599, 2799)	0.385570734632
+-->FeatureVal(feature=11, value='c')	(599, 402)	0.398507500136
+--->FeatureVal(feature='-', value='-')	(385, 0)	0
+--->FeatureVal(feature=13, value='y')	(214, 402)	0.481248800275
+---->FeatureVal(feature='-', value='-')	(147, 0)	0
+---->FeatureVal(feature=22, value='d')	(67, 402)	0.591672778582
+----->FeatureVal(feature='-', value='-')	(67, 0)	0
+----->FeatureVal(feature='-', value='-')	(0, 402)	0
+-->FeatureVal(feature='-', value='-')	(0, 2397)	0
+
+------------------------------------------------------------------------------------------------------------------------
+
+Min Gain : 0.1
+Accuracy : 0.994454713494
+Decision Tree
+
+>FeatureVal(feature=5, value='n')	(3122, 2878)	0.533217982444
+->FeatureVal(feature=20, value='r')	(2523, 79)	0.103292668138
+-->FeatureVal(feature='-', value='-')	(0, 48)	0
+-->FeatureVal(feature='-', value='-')	(2523, 31)	0
+->FeatureVal(feature=4, value='t')	(599, 2799)	0.385570734632
+-->FeatureVal(feature=11, value='c')	(599, 402)	0.398507500136
+--->FeatureVal(feature='-', value='-')	(385, 0)	0
+--->FeatureVal(feature=13, value='y')	(214, 402)	0.481248800275
+---->FeatureVal(feature='-', value='-')	(147, 0)	0
+---->FeatureVal(feature=22, value='d')	(67, 402)	0.591672778582
+----->FeatureVal(feature='-', value='-')	(67, 0)	0
+----->FeatureVal(feature='-', value='-')	(0, 402)	0
+-->FeatureVal(feature='-', value='-')	(0, 2397)	0
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Min Gain : 1
+Accuracy : 0.513863216266
+Decision Tree
+
+>FeatureVal(feature='-', value='-')	(3122, 2878)	0
+
+
+------------------------------------------------------------------------------------------------------------------------
